@@ -1,0 +1,14 @@
+package rules.rulesHello
+    rule "test001"
+        when
+         eval(true);
+        then
+         System.out.println("hello word ");
+    end
+
+    rule "test002"
+         when
+          eval(true);
+         then
+          System.out.println("test002");
+     end

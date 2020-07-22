@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name = "rules" packages="rules.rulesHello">
+        <ksession name="testhelloworld"/>
+    </kbase>
+    <kbase name = "ageRule" packages="rules.rules">
+        <ksession name="ageRule"/>
+    </kbase>
+    <kbase name = "test" packages="test">
+        <ksession name="test"/>
+    </kbase>
+    <kbase name = "tb" packages="tb">
+        <ksession name="tbKsession"/>
+    </kbase>
+    <kbase name = "crs" packages="crs">
+        <ksession name="crsKsession"/>
+    </kbase>
+</kmodule>
